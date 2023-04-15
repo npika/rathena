@@ -1897,7 +1897,7 @@ enum e_special_effects {
 	EF_SOUL_REAPER,
 
 	EF_SOUL_EXPLOSION = 1242,
-	EF_MAX
+	EF_MAX = 9999
 };
 
 enum e_hat_effects : int16{
@@ -2081,7 +2081,14 @@ enum e_hat_effects : int16{
 	HAT_EF_SUBJECT_AURA_NAVY,
 	HAT_EF_20TH_SCARF_J,
 	HAT_EF_GHOST_FIRE,
-	HAT_EF_MAX
+	HAT_EF_SERPENT_SHADOW,
+	HAT_EF_C_1st_Evt_Hat_MSP,
+	HAT_EF_C_1st_Evt_Balloon_MSP,
+	HAT_EF_rabbit_aura,
+	HAT_EF_alice_tea,
+	HAT_EF_C_Dark_Lord_Cloak,
+	HAT_EF_c_sakura_fubuki,
+	HAT_EF_MAX = 9999
 };
 
 enum e_convertpcinfo_type : uint8 {

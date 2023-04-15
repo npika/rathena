@@ -88,7 +88,7 @@ void _do_final_msg(int size, char ** msg_table){
  */
 int msg_langstr2langtype(char * langtype){
 	int lang=-1;
-	if (!strncmpi(langtype, "eng",2)) lang = 0;
+	if (!strncmpi(langtype, "kor",2)) lang = 0;
 	else if (!strncmpi(langtype, "rus",2)) lang = 1;
 	else if (!strncmpi(langtype, "spn",2)) lang = 2;
 	else if (!strncmpi(langtype, "grm",2)) lang = 3;
@@ -98,6 +98,7 @@ int msg_langstr2langtype(char * langtype){
 	else if (!strncmpi(langtype, "frn",2)) lang = 7;
 	else if (!strncmpi(langtype, "por",2)) lang = 8;
 	else if (!strncmpi(langtype, "tha",2)) lang = 9;
+	else if (!strncmpi(langtype, "eng",2)) lang = 10;
 
 	return lang;
 }
@@ -108,7 +109,7 @@ int msg_langstr2langtype(char * langtype){
  */
 const char* msg_langtype2langstr(int langtype){
 	switch(langtype){
-		case 0: return "English (ENG)";
+		case 0: return "한국어 (KOR)";
 		case 1: return "Russkiy (RUS)"; //transliteration
 		case 2: return "Espanol (SPN)";
 		case 3: return "Deutsch (GRM)";
@@ -118,6 +119,7 @@ const char* msg_langtype2langstr(int langtype){
 		case 7: return "Francais (FRN)";
 		case 8: return "Portugues Brasileiro (POR)";
 		case 9: return "Thai (THA)";
+		case 10: return "English (ENG)";
 		default: return "??";
 	}
 }

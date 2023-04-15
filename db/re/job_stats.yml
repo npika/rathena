@@ -9993,6 +9993,15 @@ Body:
       - Level: 50
         Vit: 1
         Pow: 1
+      - Level: 51
+        Crt: 1
+      - Level: 52
+        Pow: 1
+      - Level: 54
+        Pow: 1
+        Crt: 1
+      - Level: 55
+        Sta: 1
   - Jobs:
       Meister: true
       Meister2: true
@@ -10135,6 +10144,15 @@ Body:
       - Level: 50
         Pow: 1
         Wis: 1
+      - Level: 51
+        Pow: 1
+      - Level: 52
+        Con: 1
+      - Level: 53
+        Sta: 1
+        Wis: 1
+      - Level: 55
+        Pow: 1
   - Jobs:
       Shadow_Cross: true
     MaxWeight: 32000
@@ -10279,6 +10297,15 @@ Body:
       - Level: 50
         Pow: 1
         Crt: 1
+      - Level: 51
+        Pow: 1
+      - Level: 53
+        Con: 1
+      - Level: 54
+        Sta: 1
+        Crt: 1
+      - Level: 55
+        Crt: 1
   - Jobs:
       Arch_Mage: true
     MaxWeight: 30000
@@ -10418,6 +10445,15 @@ Body:
       - Level: 50
         Sta: 1
         Wis: 1
+      - Level: 52
+        Spl: 1
+      - Level: 53
+        Con: 1
+      - Level: 54
+        Sta: 1
+        Wis: 1
+      - Level: 55
+        Spl: 1
   - Jobs:
       Cardinal: true
     MaxWeight: 30000
@@ -10559,6 +10595,16 @@ Body:
       - Level: 50
         Spl: 1
         Crt: 1
+      - Level: 51
+        Spl: 1
+      - Level: 52
+        Pow: 1
+      - Level: 53
+        Sta: 1
+      - Level: 54
+        Wis: 1
+      - Level: 55
+        Crt: 1
   - Jobs:
       Windhawk: true
       Windhawk2: true
@@ -10697,6 +10743,15 @@ Body:
       - Level: 50
         Dex: 1
         Con: 1
+      - Level: 51
+        Con: 1
+      - Level: 52
+        Pow: 1
+        Con: 1
+      - Level: 53
+        Sta: 1
+      - Level: 55
+        Pow: 1
   - Jobs:
       Imperial_Guard: true
       Imperial_Guard2: true
@@ -10843,6 +10898,15 @@ Body:
       - Level: 50
         Pow: 1
         Sta: 1
+      - Level: 51
+        Pow: 1
+      - Level: 52
+        Sta: 1
+      - Level: 53
+        Sta: 1
+      - Level: 55
+        Wis: 1
+        Con: 1
   - Jobs:
       Biolo: true
     MaxWeight: 32000
@@ -10984,6 +11048,15 @@ Body:
       - Level: 50
         Str: 1
         Crt: 1
+      - Level: 51
+        Crt: 1
+      - Level: 52
+        Sta: 1
+      - Level: 53
+        Pow: 1
+        Crt: 1
+      - Level: 55
+        Con: 1
   - Jobs:
       Abyss_Chaser: true
     MaxWeight: 28000
@@ -11122,6 +11195,15 @@ Body:
       - Level: 50
         Pow: 1
         Spl: 1
+      - Level: 51
+        Pow: 1
+      - Level: 52
+        Crt: 1
+      - Level: 54
+        Sta: 1
+      - Level: 55
+        Sta: 1
+        Con: 1
   - Jobs:
       Elemental_Master: true
     MaxWeight: 30000
@@ -11261,6 +11343,16 @@ Body:
         Sta: 1
       - Level: 50
         Wis: 1
+        Spl: 1
+      - Level: 51
+        Spl: 1
+      - Level: 52
+        Sta: 1
+      - Level: 53
+        Sta: 1
+      - Level: 54
+        Wis: 1
+      - Level: 55
         Spl: 1
   - Jobs:
       Inquisitor: true
@@ -11402,6 +11494,15 @@ Body:
       - Level: 50
         Pow: 1
         Wis: 1
+      - Level: 51
+        Pow: 1
+      - Level: 52
+        Sta: 1
+      - Level: 53
+        Sta: 1
+      - Level: 55
+        Pow: 1
+        Wis: 1
   - Jobs:
       Troubadour: true
     MaxWeight: 32000
@@ -11540,6 +11641,15 @@ Body:
         Con: 1
       - Level: 50
         Dex: 1
+      - Level: 51
+        Con: 1
+      - Level: 52
+        Spl: 1
+      - Level: 53
+        Sta: 1
+      - Level: 55
+        Pow: 1
+        Con: 1
   - Jobs:
       Trouvere: true
     MaxWeight: 32000
@@ -11679,6 +11789,15 @@ Body:
         Con: 1
       - Level: 50
         Agi: 1
+      - Level: 51
+        Con: 1
+      - Level: 52
+        Sta: 1
+      - Level: 53
+        Spl: 1
+      - Level: 55
+        Pow: 1
+        Con: 1
   - Jobs:
       Sky_Emperor: true
     MaxWeight: 42000
@@ -11839,6 +11958,14 @@ Body:
       - Level: 50
         Pow: 1
         Crt: 1
+      - Level: 51
+        Sta: 1
+        Con: 1
+      - Level: 53
+        Sta: 1
+      - Level: 55
+        Pow: 1
+        Con: 1
   - Jobs:
       Soul_Ascetic: true
     MaxWeight: 42000
@@ -11967,6 +12094,16 @@ Body:
         Con: 1
       - Level: 50
         Wis: 1
+        Spl: 1
+      - Level: 51
+        Spl: 1
+      - Level: 52
+        Con: 1
+      - Level: 53
+        Wis: 1
+      - Level: 54
+        Sta: 1
+      - Level: 55
         Spl: 1
   - Jobs:
       Shinkiro: true
@@ -12106,6 +12243,16 @@ Body:
       - Level: 50
         Pow: 1
         Crt: 1
+      - Level: 51
+        Crt: 1
+      - Level: 52
+        Con: 1
+      - Level: 53
+        Wis: 1
+      - Level: 54
+        Sta: 1
+      - Level: 55
+        Sta: 1
   - Jobs:
       Shiranui: true
     MaxWeight: 45000
@@ -12233,6 +12380,15 @@ Body:
       - Level: 50
         Wis: 1
         Spl: 1
+      - Level: 51
+        Pow: 1
+      - Level: 52
+        Spl: 1
+      - Level: 54
+        Spl: 1
+      - Level: 55
+        Spl: 1
+        Con: 1
   - Jobs:
       Night_Watch: true
     MaxWeight: 48000
@@ -12367,6 +12523,15 @@ Body:
       - Level: 49
         Con: 1
       - Level: 50
+        Pow: 1
+      - Level: 51
+        Con: 1
+      - Level: 53
+        Pow: 1
+        Con: 1
+      - Level: 54
+        Wis: 1
+      - Level: 55
         Pow: 1
   - Jobs:
       Hyper_Novice: true
@@ -12514,6 +12679,15 @@ Body:
       - Level: 50
         Agi: 1
         Dex: 1
+      - Level: 51
+        Con: 1
+      - Level: 52
+        Pow: 1
+        Con: 1
+      - Level: 53
+        Sta: 1
+      - Level: 55
+        Spl: 1
   - Jobs:
       Spirit_Handler: true
     MaxWeight: 42000
@@ -12649,3 +12823,13 @@ Body:
         Crt: 1
       - Level: 50
         Pow: 1
+      - Level: 51
+        Con: 1
+      - Level: 52
+        Pow: 1
+      - Level: 53
+        Spl: 1
+      - Level: 54
+        Wis: 1
+      - Level: 55
+        Sta: 1

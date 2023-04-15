@@ -89,7 +89,7 @@ typedef uint32 t_itemid;
 #endif
 #define MAX_FAME 1000000000 ///Max fame points
 #define MAX_CART 100 ///Maximum item in cart
-#define MAX_SKILL 1500 ///Maximum skill can be hold by Player, Homunculus, & Mercenary (skill list) AND skill_db limit
+#define MAX_SKILL 1642 ///Maximum skill can be hold by Player, Homunculus, & Mercenary (skill list) AND skill_db limit
 #define DEFAULT_WALK_SPEED 150 ///Default walk speed
 #define MIN_WALK_SPEED 20 ///Min walk speed
 #define MAX_WALK_SPEED 1000 ///Max walk speed
@@ -413,6 +413,8 @@ struct status_change_data {
 	unsigned short type; //SC_type
 	long val1, val2, val3, val4;
 	t_tick tick; //Remaining duration.
+	t_tick tick_time;
+	t_tick tick_total;
 };
 
 #define MAX_BONUS_SCRIPT_LENGTH 512

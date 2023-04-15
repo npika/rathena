@@ -484,8 +484,32 @@ enum useskill_fail_cause : uint8_t
 	USESKILL_FAIL_THERE_ARE_NPC_AROUND = 83,
 	USESKILL_FAIL_NEED_MORE_BULLET = 84,
 	USESKILL_FAIL_COINS = 85,
-	// 86-99 unknown
+	//#86 Unknown Usage MSG: Do you agree?
+	USESKILL_FAIL_MAP = 87,
+	USESKILL_FAIL_NEED_SUMMON_SP = 88,
+	USESKILL_FAIL_SAME_VEND = 89,
+	USESKILL_FAIL_NEED_BULLETS = 90,
+	USESKILL_FAIL_NEED_ARROWS = 91,
+	USESKILL_FAIL_NEED_PARTY = 92,
+	USESKILL_FAIL_NEED_PARTY_LEADER = 93,
+	USESKILL_FAIL_NEED_PARTNER_SP = 94,
+	USESKILL_FAIL_NEED_WEAPON = 95,
+	USESKILL_FAIL_NEED_ENERGY_SPHERE = 96,
+	USESKILL_FAIL_NEED_WEAPON_BLOCKING = 97,
+	USESKILL_FAIL_MAX_TRAPS = 98,
+	USESKILL_FAIL_NEED_MAGIC_SPELLBOOK = 99,
 	USESKILL_FAIL_AP_INSUFFICIENT = 100,
+	USESKILL_FAIL_NEED_SERVANT_WEAPON = 101,
+	USESKILL_FAIL_NEED_TWINKLING_GALAXY = 102,
+	USESKILL_FAIL_NEED_SOUL_ENGERY = 103,
+	USESKILL_FAIL_NEED_AMULET = 104,
+	USESKILL_FAIL_NEED_GATLING_SHOTGUT = 105,
+	USESKILL_FAIL_NEED_RIFLE_REVOLVER = 106,
+	USESKILL_FAIL_NEED_GLAUNCHER_RIFLE = 107,
+	USESKILL_FAIL_NEED_GATLING_REVOLVER = 108,
+	USESKILL_FAIL_NEED_SHOTGUN_GLAUNCHER = 109,
+	USESKILL_FAIL_NEED_SHIELD = 110,
+	USESKILL_FAIL_TARGET_SHADOW_SPACE = 111,
 	USESKILL_FAIL_MAX
 };
 
@@ -771,8 +795,9 @@ void clif_bladestop(struct block_list *src, int dst_id, int active);
 void clif_changemapcell(int fd, int16 m, int x, int y, int type, enum send_target target);
 
 #define clif_status_load(bl, type, flag) clif_status_change((bl), (type), (flag), 0, 0, 0, 0)
-void clif_status_change(struct block_list *bl, int type, int flag, t_tick tick, int val1, int val2, int val3);
-void clif_efst_status_change(struct block_list *bl, int tid, enum send_target target, int type, t_tick tick, int val1, int val2, int val3);
+void clif_status_change(struct block_list* bl, int type, int flag, t_tick tick_total, int val1, int val2, int val3);
+void clif_status_change_sub(struct block_list* bl, int id, int type, int flag, t_tick tick_total, t_tick tick, int val1, int val2, int val3);
+void clif_efst_status_change(struct block_list* bl, int tid, enum send_target target, int type, t_tick tick_total, t_tick tick, int val1, int val2, int val3);
 void clif_efst_status_change_sub(struct block_list *tbl, struct block_list *bl, enum send_target target);
 
 void clif_wis_message(map_session_data* sd, const char* nick, const char* mes, int mes_len, int gmlvl);

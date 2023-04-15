@@ -43,7 +43,7 @@ Body:
 # WOE FE castle
   - Id: 0
     Map: aldeg_cas01
-    Name: Neuschwanstein
+    Name: ³ëÀÌ½´¹Ý½ºÅ¸ÀÎ
     #Name: Noisyubantian
     Npc: Agit#aldeg_cas01
     Type: First_Edition
@@ -53,7 +53,7 @@ Body:
     WarpY: 175
   - Id: 1
     Map: aldeg_cas02
-    Name: Hohenschwangau
+    Name: È£Çî½´¹Ý°¡¿ì
     #Name: Hohensyubangawoo
     Npc: Agit#aldeg_cas02
     Type: First_Edition
@@ -63,7 +63,7 @@ Body:
     WarpY: 71
   - Id: 2
     Map: aldeg_cas03
-    Name: Nuernberg
+    Name: ´µ·»º£¸£Å©
     #Name: Nyirenverk
     Npc: Agit#aldeg_cas03
     Type: First_Edition
@@ -73,7 +73,7 @@ Body:
     WarpY: 112
   - Id: 3
     Map: aldeg_cas04
-    Name: Wuerzburg
+    Name: ºß¸£Ã÷ºÎ¸£Å©
     #Name: Byirtsburi
     Npc: Agit#aldeg_cas04
     Type: First_Edition
@@ -83,7 +83,7 @@ Body:
     WarpY: 116
   - Id: 4
     Map: aldeg_cas05
-    Name: Rothenburg
+    Name: ·ÎÅÙºÎ¸£Å©
     #Name: Rotenburk
     Npc: Agit#aldeg_cas05
     Type: First_Edition
@@ -93,7 +93,7 @@ Body:
     WarpY: 185
   - Id: 5
     Map: gefg_cas01
-    Name: Repherion
+    Name: ·¹ÇÁ¸®¿Â
     #Name: Reprion
     Npc: Agit#gefg_cas01
     Type: First_Edition
@@ -103,7 +103,7 @@ Body:
     WarpY: 43
   - Id: 6
     Map: gefg_cas02
-    Name: Eeyolbriggar
+    Name: ¿çºê¸®°Å
     #Name: Yolbriger
     Npc: Agit#gefg_cas02
     Type: First_Edition
@@ -113,7 +113,7 @@ Body:
     WarpY: 66
   - Id: 7
     Map: gefg_cas03
-    Name: Yesnelph
+    Name: ÀÌ½º³ÚÇÁ
     #Name: Isinlife
     Npc: Agit#gefg_cas03
     Type: First_Edition
@@ -123,7 +123,7 @@ Body:
     WarpY: 23
   - Id: 8
     Map: gefg_cas04
-    Name: Bergel
+    Name: º£¸£°Ö
     #Name: Berigel
     Npc: Agit#gefg_cas04
     Type: First_Edition
@@ -133,7 +133,7 @@ Body:
     WarpY: 46
   - Id: 9
     Map: gefg_cas05
-    Name: Mersetzdeitz
+    Name: ¸á¼¼½ºµ¥Ã÷
     #Name: Melsedetsu
     Npc: Agit#gefg_cas05
     Type: First_Edition
@@ -143,7 +143,7 @@ Body:
     WarpY: 48
   - Id: 10
     Map: payg_cas01
-    Name: Bright Arbor
+    Name: ¸íÁ¤(Ù¥ïÍ)
     #Name: Mingting
     Npc: Agit#payg_cas01
     Type: First_Edition
@@ -153,7 +153,7 @@ Body:
     WarpY: 57
   - Id: 11
     Map: payg_cas02
-    Name: Scarlet Palace
+    Name: Ãµ´Ü(ô¸Ó¦)
     #Name: Tiantan
     Npc: Agit#payg_cas02
     Type: First_Edition
@@ -163,7 +163,7 @@ Body:
     WarpY: 265
   - Id: 12
     Map: payg_cas03
-    Name: Holy Shadow
+    Name: ºÒ¿µ(ÝÖç¯)
     #Name: Fuying
     Npc: Agit#payg_cas03
     Type: First_Edition
@@ -173,7 +173,7 @@ Body:
     WarpY: 264
   - Id: 13
     Map: payg_cas04
-    Name: Sacred Altar
+    Name: È«·ç(ûõ×§)
     #Name: Honglou
     Npc: Agit#payg_cas04
     Type: First_Edition
@@ -183,7 +183,7 @@ Body:
     WarpY: 272
   - Id: 14
     Map: payg_cas05
-    Name: Bamboo Grove Hill
+    Name: Á×¸²Çö(ñÓ×ùúÖ)
     #Name: Zhulinxian
     Npc: Agit#payg_cas05
     Type: First_Edition
@@ -193,7 +193,7 @@ Body:
     WarpY: 246
   - Id: 15
     Map: prtg_cas01
-    Name: Kriemhild
+    Name: Å©¸²ÈúÆ®
     #Name: Creamhilt
     Npc: Agit#prtg_cas01
     Type: First_Edition
@@ -203,7 +203,7 @@ Body:
     WarpY: 180
   - Id: 16
     Map: prtg_cas02
-    Name: Swanhild
+    Name: ½º¹ÝÈúÆ®
     #Name: Sbanhealt
     Npc: Agit#prtg_cas02
     Type: First_Edition
@@ -213,7 +213,7 @@ Body:
     WarpY: 56
   - Id: 17
     Map: prtg_cas03
-    Name: Fadhgridh
+    Name: ¶óÁî¸®±×½º
     #Name: Lazrigees
     Npc: Agit#prtg_cas03
     Type: First_Edition
@@ -223,7 +223,7 @@ Body:
     WarpY: 97
   - Id: 18
     Map: prtg_cas04
-    Name: Skoegul
+    Name: ½ºÄê±¼
     #Name: Squagul
     Npc: Agit#prtg_cas04
     Type: First_Edition
@@ -233,7 +233,7 @@ Body:
     WarpY: 262
   - Id: 19
     Map: prtg_cas05
-    Name: Gondul
+    Name: ±­µé
     #Name: Guindull
     Npc: Agit#prtg_cas05
     Type: First_Edition

@@ -1283,6 +1283,71 @@ enum sc_type : int16 {
 	SC_RUSH_QUAKE1,
 	SC_RUSH_QUAKE2,
 
+	// Hyper Novice
+	SC_SHIELDCHAINRUSH,
+	SC_MISTYFROST,
+	SC_GROUNDGRAVITY,
+	SC_BREAKINGLIMIT,
+	SC_RULEBREAK,
+	SC_HNNOWEAPON,
+	
+	// Sky Emperor
+	SC_RISING_SUN,
+	SC_NOON_SUN,
+	SC_SUNSET_SUN,
+	SC_RISING_MOON,
+	SC_MIDNIGHT_MOON,
+	SC_DAWN_MOON,
+	SC_STAR_BURST,
+	SC_SKY_ENCHANT,
+	
+	// Soul Ascetic
+	SC_TALISMAN_OF_PROTECTION,
+	SC_TALISMAN_OF_WARRIOR,
+	SC_TALISMAN_OF_MAGICIAN,
+	SC_TALISMAN_OF_FIVE_ELEMENTS,
+	SC_T_FIRST_GOD,
+	SC_T_SECOND_GOD,
+	SC_T_THIRD_GOD,
+	SC_T_FOURTH_GOD,
+	SC_T_FIFTH_GOD,
+	SC_HEAVEN_AND_EARTH,
+	SC_TOTEM_OF_TUTELARY,
+	
+	// Night Watch
+	SC_INTENSIVE_AIM,
+	SC_INTENSIVE_AIM_COUNT,
+	SC_GRENADE_FRAGMENT_1,
+	SC_GRENADE_FRAGMENT_2,
+	SC_GRENADE_FRAGMENT_3,
+	SC_GRENADE_FRAGMENT_4,
+	SC_GRENADE_FRAGMENT_5,
+	SC_GRENADE_FRAGMENT_6,
+	SC_AUTO_FIRING_LAUNCHER,
+	SC_HIDDEN_CARD,
+
+	// Shinkiro/Shiranui
+	SC_SHADOW_CLOCK,
+	SC_SHINKIROU_CALL,
+	SC_NIGHTMARE,
+	SC_SBUNSHIN,
+
+	// Spirit Handler
+	SC_HOGOGONG,
+	SC_MARINE_FESTIVAL,
+	SC_SANDY_FESTIVAL,
+	SC_KI_SUL_RAMPAGE,
+	SC_COLORS_OF_HYUN_ROK_1,
+	SC_COLORS_OF_HYUN_ROK_2,
+	SC_COLORS_OF_HYUN_ROK_3,
+	SC_COLORS_OF_HYUN_ROK_4,
+	SC_COLORS_OF_HYUN_ROK_5,
+	SC_COLORS_OF_HYUN_ROK_6,
+	SC_COLORS_OF_HYUN_ROK_BUFF,
+	SC_TEMPORARY_COMMUNION,
+	SC_BLESSING_OF_M_CREATURES,
+	SC_BLESSING_OF_M_C_DEBUFF,
+
 #ifdef RENEWAL
 	SC_EXTREMITYFIST2, //! NOTE: This SC should be right before SC_MAX, so it doesn't disturb if RENEWAL is disabled
 #endif
@@ -3225,6 +3290,8 @@ struct sc_display_entry {
 struct status_change_entry {
 	int timer;
 	int val1,val2,val3,val4;
+	int tick_timer;
+	t_tick tick_total;
 };
 
 ///Status change
@@ -3408,6 +3475,7 @@ int status_isimmune(struct block_list *bl);
 
 t_tick status_get_sc_def(struct block_list *src,struct block_list *bl, enum sc_type type, int rate, t_tick tick, unsigned char flag);
 int status_change_start(struct block_list* src, struct block_list* bl,enum sc_type type,int rate,int val1,int val2,int val3,int val4,t_tick duration,unsigned char flag, int32 delay = 0);
+int status_change_start_sub(struct block_list* src, struct block_list* bl, enum sc_type type, int rate, int val1, int val2, int val3, int val4, t_tick duration, t_tick duration_total, t_tick duration_tick, unsigned char flag, int32 delay = 0);
 //Short version, receives rate in 1->100 range, and does not uses a flag setting.
 static int sc_start(block_list *src, block_list *bl, sc_type type, int32 rate, int32 val1, t_tick duration, int32 delay = 0) {
 	return status_change_start(src, bl, type, 100 * rate, val1, 0, 0, 0, duration, SCSTART_NONE, delay);
@@ -3420,6 +3488,7 @@ static int sc_start4(block_list *src, block_list *bl, sc_type type, int32 rate, 
 }
 int status_change_end(struct block_list* bl, enum sc_type type, int tid = INVALID_TIMER);
 TIMER_FUNC(status_change_timer);
+TIMER_FUNC(status_change_tick_timer);
 int status_change_timer_sub(struct block_list* bl, va_list ap);
 int status_change_clear(struct block_list* bl, int type);
 void status_change_clear_buffs(struct block_list* bl, uint8 type);

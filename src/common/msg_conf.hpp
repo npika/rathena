@@ -16,6 +16,7 @@ enum lang_types {
 	LANG_FRN = 0x40,
 	LANG_POR = 0x80,
 	LANG_THA = 0x100,
+	LANG_ENG = 0x200,
 	LANG_MAX
 };
 
