@@ -6744,15 +6744,13 @@ int skill_castend_damage_id (struct block_list* src, struct block_list *bl, uint
 		}
 		break;
 	case GC_CROSSIMPACT: {
-		uint8 dir = DIR_NORTHEAST;
+		uint8 dir = map_calc_dir(bl, src->x, src->y);    // dir based on target as we move player based on target location
 
-		if (bl->x != src->x || bl->y != src->y)
-			dir = map_calc_dir(bl, src->x, src->y);	// dir based on target as we move player based on target location
-
-		if (skill_check_unit_movepos(0, src, bl->x + dirx[dir], bl->y + diry[dir], 1, 1)) {
-			clif_blown(src);
+		if (skill_check_unit_movepos(0, src, bl->x, bl->y, 1, 1)) {
+			skill_blown(src, src, 1, (map_calc_dir_xy(bl->x, bl->y, src->x + dirx[dir], src->y + diry[dir], unit_getdir(src)) + 4) % 8, BLOWN_IGNORE_NO_KNOCKBACK);    // eppc0330 ignore knockback
 			skill_attack(BF_WEAPON, src, src, bl, skill_id, skill_lv, tick, flag);
-		} else {
+		}
+		else {
 			if (sd)
 				clif_skill_fail(sd, skill_id, USESKILL_FAIL, 0);
 		}
