@@ -103131,7 +103131,7 @@ Body:
 #    AegisName: MD_AIRBOAT_BOSS4
   - Id: 21064
     AegisName: S_DUMMY_100_SMALL
-    Name: Training Dummy (Small)
+    Name: ÈÆ·Ã¿ë µ¹±âµÕ(¼ÒÇü)
     Level: 100
     Hp: 2000000000
     Attack: 10
@@ -103153,7 +103153,7 @@ Body:
       TeleportBlock: true
   - Id: 21065
     AegisName: S_DUMMY_100_MEDIUM
-    Name: Training Dummy (Medium)
+    Name: ÈÆ·Ã¿ë µ¹±âµÕ(ÁßÇü)
     Level: 100
     Hp: 2000000000
     Attack: 10
@@ -103175,7 +103175,7 @@ Body:
       TeleportBlock: true
   - Id: 21066
     AegisName: S_DUMMY_100_LARGE
-    Name: Training Dummy (Large)
+    Name: ÈÆ·Ã¿ë µ¹±âµÕ(´ëÇü)
     Level: 100
     Hp: 2000000000
     Attack: 10
@@ -103197,7 +103197,7 @@ Body:
       TeleportBlock: true
   - Id: 21067
     AegisName: S_DUMMY_100_NOTHING
-    Name: Training Dummy (Neutral)
+    Name: ÈÆ·Ã¿ë µ¹±âµÕ(¹«¼Ó¼º)
     Level: 100
     Hp: 2000000000
     Attack: 10
@@ -103219,7 +103219,7 @@ Body:
       TeleportBlock: true
   - Id: 21068
     AegisName: S_DUMMY_100_DRAGON
-    Name: Training Dummy (Dragon)
+    Name: ÈÆ·Ã¿ë µ¹±âµÕ(¿ëÁ·)
     Level: 100
     Hp: 2000000000
     Attack: 10
@@ -103241,7 +103241,7 @@ Body:
       TeleportBlock: true
   - Id: 21069
     AegisName: S_DUMMY_100_ANIMAL
-    Name: Training Dummy (Brute)
+    Name: ÈÆ·Ã¿ë µ¹±âµÕ(µ¿¹°Çü)
     Level: 100
     Hp: 2000000000
     Attack: 10
@@ -103263,7 +103263,7 @@ Body:
       TeleportBlock: true
   - Id: 21070
     AegisName: S_DUMMY_100_HUMAN
-    Name: Training Dummy (Human)
+    Name: ÈÆ·Ã¿ë µ¹±âµÕ(ÀÎ°£Çü)
     Level: 100
     Hp: 2000000000
     Attack: 10
@@ -103285,7 +103285,7 @@ Body:
       TeleportBlock: true
   - Id: 21071
     AegisName: S_DUMMY_100_INSECT
-    Name: Training Dummy (Insect)
+    Name: ÈÆ·Ã¿ë µ¹±âµÕ(°ïÃæÇü)
     Level: 100
     Hp: 2000000000
     Attack: 10
@@ -103307,7 +103307,7 @@ Body:
       TeleportBlock: true
   - Id: 21072
     AegisName: S_DUMMY_100_FISH
-    Name: Training Dummy (Fish)
+    Name: ÈÆ·Ã¿ë µ¹±âµÕ(¾î·ùÇü)
     Level: 100
     Hp: 2000000000
     Attack: 10
@@ -103329,7 +103329,7 @@ Body:
       TeleportBlock: true
   - Id: 21073
     AegisName: S_DUMMY_100_DEMON
-    Name: Training Dummy (Demon)
+    Name: ÈÆ·Ã¿ë µ¹±âµÕ(¾Ç¸¶Çü)
     Level: 100
     Hp: 2000000000
     Attack: 10
@@ -103351,7 +103351,7 @@ Body:
       TeleportBlock: true
   - Id: 21074
     AegisName: S_DUMMY_100_PLANT
-    Name: Training Dummy (Plant)
+    Name: ÈÆ·Ã¿ë µ¹±âµÕ(½Ä¹°Çü)
     Level: 100
     Hp: 2000000000
     Attack: 10
@@ -103373,7 +103373,7 @@ Body:
       TeleportBlock: true
   - Id: 21075
     AegisName: S_DUMMY_100_ANGEL
-    Name: Training Dummy (Angel)
+    Name: ÈÆ·Ã¿ë µ¹±âµÕ(Ãµ»çÇü)
     Level: 100
     Hp: 2000000000
     Attack: 10
@@ -103395,7 +103395,7 @@ Body:
       TeleportBlock: true
   - Id: 21076
     AegisName: S_DUMMY_100_UNDEAD
-    Name: Training Dummy (Undead)
+    Name: ÈÆ·Ã¿ë µ¹±âµÕ(ºÒ»çÇü)
     Level: 100
     Hp: 2000000000
     Attack: 10
@@ -103418,7 +103418,7 @@ Body:
   - Id: 21077
     AegisName: S_DUMMY_100_NOTHING2
     # Name: Training Dummy (Neutral Lv1)
-    Name: Dummy (Neutral Lv1)
+    Name: ÈÆ·Ã¿ë µ¹±âµÕ(¹«¼Ó¼º Lv1)
     Level: 100
     Hp: 2000000000
     Attack: 10
@@ -103440,7 +103440,7 @@ Body:
   - Id: 21078
     AegisName: S_DUMMY_100_WATER
     # Name: Training Dummy (Water Lv1)
-    Name: Dummy (Water Lv1)
+    Name: ÈÆ·Ã¿ë µ¹±âµÕ(¼ö¼Ó¼º Lv1)
     Level: 100
     Hp: 2000000000
     Attack: 10
@@ -103463,7 +103463,7 @@ Body:
   - Id: 21079
     AegisName: S_DUMMY_100_GROUND
     # Name: Training Dummy (Earth Lv1)
-    Name: Dummy (Earth Lv1)
+    Name: ÈÆ·Ã¿ë µ¹±âµÕ(Áö¼Ó¼º Lv1)
     Level: 100
     Hp: 2000000000
     Attack: 10
@@ -103486,7 +103486,7 @@ Body:
   - Id: 21080
     AegisName: S_DUMMY_100_FIRE
     # Name: Training Dummy (Fire Lv1)
-    Name: Dummy (Fire Lv1)
+    Name: ÈÆ·Ã¿ë µ¹±âµÕ(È­¼Ó¼º Lv1)
     Level: 100
     Hp: 2000000000
     Attack: 10
@@ -103509,7 +103509,7 @@ Body:
   - Id: 21081
     AegisName: S_DUMMY_100_WIND
     # Name: Training Dummy (Wind Lv1)
-    Name: Dummy (Wind Lv1)
+    Name: ÈÆ·Ã¿ë µ¹±âµÕ(Ç³¼Ó¼º Lv1)
     Level: 100
     Hp: 2000000000
     Attack: 10
@@ -103532,7 +103532,7 @@ Body:
   - Id: 21082
     AegisName: S_DUMMY_100_POISON
     # Name: Training Dummy (Poison Lv1)
-    Name: Dummy (Poison Lv1)
+    Name: ÈÆ·Ã¿ë µ¹±âµÕ(µ¶¼Ó¼º Lv1)
     Level: 100
     Hp: 2000000000
     Attack: 10
@@ -103555,7 +103555,7 @@ Body:
   - Id: 21083
     AegisName: S_DUMMY_100_SAINT
     # Name: Training Dummy (Holy Lv1)
-    Name: Dummy (Holy Lv1)
+    Name: ÈÆ·Ã¿ë µ¹±âµÕ(¼º¼Ó¼º Lv1)
     Level: 100
     Hp: 2000000000
     Attack: 10
@@ -103578,7 +103578,7 @@ Body:
   - Id: 21084
     AegisName: S_DUMMY_100_DARKNESS
     # Name: Training Dummy (Dark Lv1)
-    Name: Dummy (Dark Lv1)
+    Name: ÈÆ·Ã¿ë µ¹±âµÕ(¾Ï¼Ó¼º Lv1)
     Level: 100
     Hp: 2000000000
     Attack: 10
@@ -103601,7 +103601,7 @@ Body:
   - Id: 21085
     AegisName: S_DUMMY_100_TELEKINESIS
     # Name: Training Dummy (Ghost Lv1)
-    Name: Dummy (Ghost Lv1)
+    Name: ÈÆ·Ã¿ë µ¹±âµÕ(¿°¼Ó¼º Lv1)
     Level: 100
     Hp: 2000000000
     Attack: 10
@@ -103624,7 +103624,7 @@ Body:
   - Id: 21086
     AegisName: S_DUMMY_100_UNDEAD2
     # Name: Training Dummy (Undead Lv1)
-    Name: Dummy (Undead Lv1)
+    Name: ÈÆ·Ã¿ë µ¹±âµÕ(¾ðµ¥µå Lv1)
     Level: 100
     Hp: 2000000000
     Attack: 10
