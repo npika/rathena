@@ -12536,7 +12536,7 @@ BUILDIN_FUNC(homunculus_mutate)
 	if(script_hasdata(st,2))
 		homun_id = script_getnum(st,2);
 	else
-		homun_id = 6048 + (rnd() % 4);
+		homun_id = 6048 + (rnd() % 5);
 
 	if( sd->hd->homunculus.vaporize == HOM_ST_MORPH ) {
 		int m_class = hom_class2mapid(sd->hd->homunculus.class_);

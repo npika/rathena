@@ -7944,7 +7944,7 @@ ACMD_FUNC(hommutate)
 	}
 
 	if (!message || !*message) {
-		homun_id = 6048 + (rnd() % 4);
+		homun_id = 6048 + (rnd() % 5);
 	} else {
 		homun_id = atoi(message);
 	}

@@ -13238,7 +13238,7 @@ Body:
 #        StealProtected: true
   - Id: 1285
     AegisName: ARCHER_GUARDIAN
-    Name: 화살가드
+    Name: 아쳐 가디언
     Level: 74
     Hp: 28634
     BaseExp: 1
@@ -13274,7 +13274,7 @@ Body:
       Detector: true
   - Id: 1286
     AegisName: KNIGHT_GUARDIAN
-    Name: 기사가드
+    Name: 마스터 가디언
     Level: 86
     Hp: 30214
     BaseExp: 1
@@ -13310,7 +13310,7 @@ Body:
       Detector: true
   - Id: 1287
     AegisName: SOLDIER_GUARDIAN
-    Name: Soldier Guardian
+    Name: 솔져 가디언
     Level: 56
     Hp: 15670
     BaseExp: 1
@@ -15064,7 +15064,7 @@ Body:
         StealProtected: true
   - Id: 1324
     AegisName: TREASURE_BOX1
-    Name: Treasure Chest
+    Name: 보물상자
     Level: 99
     Dex: 1199
     Size: Small
@@ -15094,7 +15094,7 @@ Body:
         StealProtected: true
   - Id: 1325
     AegisName: TREASURE_BOX2
-    Name: Treasure Chest
+    Name: 보물상자
     Level: 99
     Dex: 1199
     Size: Small
@@ -15124,7 +15124,7 @@ Body:
         StealProtected: true
   - Id: 1326
     AegisName: TREASURE_BOX3
-    Name: Treasure Chest
+    Name: 보물상자
     Level: 99
     Dex: 1199
     Size: Small
@@ -15154,7 +15154,7 @@ Body:
         StealProtected: true
   - Id: 1327
     AegisName: TREASURE_BOX4
-    Name: Treasure Chest
+    Name: 보물상자
     Level: 99
     Dex: 1199
     Size: Small
@@ -15184,7 +15184,7 @@ Body:
         StealProtected: true
   - Id: 1328
     AegisName: TREASURE_BOX5
-    Name: Treasure Chest
+    Name: 보물상자
     Level: 99
     Dex: 1199
     Size: Small
@@ -15214,7 +15214,7 @@ Body:
         StealProtected: true
   - Id: 1329
     AegisName: TREASURE_BOX6
-    Name: Treasure Chest
+    Name: 보물상자
     Level: 99
     Dex: 1199
     Size: Small
@@ -15244,7 +15244,7 @@ Body:
         StealProtected: true
   - Id: 1330
     AegisName: TREASURE_BOX7
-    Name: Treasure Chest
+    Name: 보물상자
     Level: 99
     Dex: 1199
     Size: Small
@@ -15274,7 +15274,7 @@ Body:
         StealProtected: true
   - Id: 1331
     AegisName: TREASURE_BOX8
-    Name: Treasure Chest
+    Name: 보물상자
     Level: 99
     Dex: 1199
     Size: Small
@@ -15304,7 +15304,7 @@ Body:
         StealProtected: true
   - Id: 1332
     AegisName: TREASURE_BOX9
-    Name: Treasure Chest
+    Name: 보물상자
     Level: 99
     Dex: 1199
     Size: Small
@@ -15334,7 +15334,7 @@ Body:
         StealProtected: true
   - Id: 1333
     AegisName: TREASURE_BOX10
-    Name: Treasure Chest
+    Name: 보물상자
     Level: 99
     Dex: 1199
     Size: Small
@@ -15364,7 +15364,7 @@ Body:
         StealProtected: true
   - Id: 1334
     AegisName: TREASURE_BOX11
-    Name: Treasure Chest
+    Name: 보물상자
     Level: 99
     Dex: 1199
     Size: Small
@@ -15394,7 +15394,7 @@ Body:
         StealProtected: true
   - Id: 1335
     AegisName: TREASURE_BOX12
-    Name: Treasure Chest
+    Name: 보물상자
     Level: 99
     Dex: 1199
     Size: Small
@@ -15424,7 +15424,7 @@ Body:
         StealProtected: true
   - Id: 1336
     AegisName: TREASURE_BOX13
-    Name: Treasure Chest
+    Name: 보물상자
     Level: 99
     Dex: 1199
     Size: Small
@@ -15454,7 +15454,7 @@ Body:
         StealProtected: true
   - Id: 1337
     AegisName: TREASURE_BOX14
-    Name: Treasure Chest
+    Name: 보물상자
     Level: 99
     Dex: 1199
     Size: Small
@@ -15484,7 +15484,7 @@ Body:
         StealProtected: true
   - Id: 1338
     AegisName: TREASURE_BOX15
-    Name: Treasure Chest
+    Name: 보물상자
     Level: 99
     Dex: 1199
     Size: Small
@@ -15514,7 +15514,7 @@ Body:
         StealProtected: true
   - Id: 1339
     AegisName: TREASURE_BOX16
-    Name: Treasure Chest
+    Name: 보물상자
     Level: 99
     Dex: 1199
     Size: Small
@@ -15544,7 +15544,7 @@ Body:
         StealProtected: true
   - Id: 1340
     AegisName: TREASURE_BOX17
-    Name: Treasure Chest
+    Name: 보물상자
     Level: 99
     Dex: 1199
     Size: Small
@@ -15574,7 +15574,7 @@ Body:
         StealProtected: true
   - Id: 1341
     AegisName: TREASURE_BOX18
-    Name: Treasure Chest
+    Name: 보물상자
     Level: 99
     Dex: 1199
     Size: Small
@@ -15604,7 +15604,7 @@ Body:
         StealProtected: true
   - Id: 1342
     AegisName: TREASURE_BOX19
-    Name: Treasure Chest
+    Name: 보물상자
     Level: 99
     Dex: 1199
     Size: Small
@@ -15634,7 +15634,7 @@ Body:
         StealProtected: true
   - Id: 1343
     AegisName: TREASURE_BOX20
-    Name: Treasure Chest
+    Name: 보물상자
     Level: 99
     Dex: 1199
     Size: Small
@@ -15664,7 +15664,7 @@ Body:
         StealProtected: true
   - Id: 1344
     AegisName: TREASURE_BOX21
-    Name: Treasure Chest
+    Name: 보물상자
     Level: 99
     Dex: 1199
     Size: Small
@@ -15694,7 +15694,7 @@ Body:
         StealProtected: true
   - Id: 1345
     AegisName: TREASURE_BOX22
-    Name: Treasure Chest
+    Name: 보물상자
     Level: 99
     Dex: 1199
     Size: Small
@@ -15724,7 +15724,7 @@ Body:
         StealProtected: true
   - Id: 1346
     AegisName: TREASURE_BOX23
-    Name: Treasure Chest
+    Name: 보물상자
     Level: 99
     Dex: 1199
     Size: Small
@@ -15754,7 +15754,7 @@ Body:
         StealProtected: true
   - Id: 1347
     AegisName: TREASURE_BOX24
-    Name: Treasure Chest
+    Name: 보물상자
     Level: 99
     Dex: 1199
     Size: Small
@@ -15784,7 +15784,7 @@ Body:
         StealProtected: true
   - Id: 1348
     AegisName: TREASURE_BOX25
-    Name: Treasure Chest
+    Name: 보물상자
     Level: 99
     Dex: 1199
     Size: Small
@@ -15814,7 +15814,7 @@ Body:
         StealProtected: true
   - Id: 1349
     AegisName: TREASURE_BOX26
-    Name: Treasure Chest
+    Name: 보물상자
     Level: 99
     Dex: 1199
     Size: Small
@@ -15844,7 +15844,7 @@ Body:
         StealProtected: true
   - Id: 1350
     AegisName: TREASURE_BOX27
-    Name: Treasure Chest
+    Name: 보물상자
     Level: 99
     Dex: 1199
     Size: Small
@@ -15874,7 +15874,7 @@ Body:
         StealProtected: true
   - Id: 1351
     AegisName: TREASURE_BOX28
-    Name: Treasure Chest
+    Name: 보물상자
     Level: 99
     Dex: 1199
     Size: Small
@@ -15904,7 +15904,7 @@ Body:
         StealProtected: true
   - Id: 1352
     AegisName: TREASURE_BOX29
-    Name: Treasure Chest
+    Name: 보물상자
     Level: 99
     Dex: 1199
     Size: Small
@@ -15934,7 +15934,7 @@ Body:
         StealProtected: true
   - Id: 1353
     AegisName: TREASURE_BOX30
-    Name: Treasure Chest
+    Name: 보물상자
     Level: 99
     Dex: 1199
     Size: Small
@@ -15964,7 +15964,7 @@ Body:
         StealProtected: true
   - Id: 1354
     AegisName: TREASURE_BOX31
-    Name: Treasure Chest
+    Name: 보물상자
     Level: 99
     Dex: 1199
     Size: Small
@@ -15994,7 +15994,7 @@ Body:
         StealProtected: true
   - Id: 1355
     AegisName: TREASURE_BOX32
-    Name: Treasure Chest
+    Name: 보물상자
     Level: 99
     Dex: 1199
     Size: Small
@@ -16024,7 +16024,7 @@ Body:
         StealProtected: true
   - Id: 1356
     AegisName: TREASURE_BOX33
-    Name: Treasure Chest
+    Name: 보물상자
     Level: 99
     Dex: 1199
     Size: Small
@@ -16054,7 +16054,7 @@ Body:
         StealProtected: true
   - Id: 1357
     AegisName: TREASURE_BOX34
-    Name: Treasure Chest
+    Name: 보물상자
     Level: 99
     Dex: 1199
     Size: Small
@@ -16084,7 +16084,7 @@ Body:
         StealProtected: true
   - Id: 1358
     AegisName: TREASURE_BOX35
-    Name: Treasure Chest
+    Name: 보물상자
     Level: 99
     Dex: 1199
     Size: Small
@@ -16114,7 +16114,7 @@ Body:
         StealProtected: true
   - Id: 1359
     AegisName: TREASURE_BOX36
-    Name: Treasure Chest
+    Name: 보물상자
     Level: 99
     Dex: 1199
     Size: Small
@@ -16144,7 +16144,7 @@ Body:
         StealProtected: true
   - Id: 1360
     AegisName: TREASURE_BOX37
-    Name: Treasure Chest
+    Name: 보물상자
     Level: 99
     Dex: 1199
     Size: Small
@@ -16174,7 +16174,7 @@ Body:
         StealProtected: true
   - Id: 1361
     AegisName: TREASURE_BOX38
-    Name: Treasure Chest
+    Name: 보물상자
     Level: 99
     Dex: 1199
     Size: Small
@@ -16204,7 +16204,7 @@ Body:
         StealProtected: true
   - Id: 1362
     AegisName: TREASURE_BOX39
-    Name: Treasure Chest
+    Name: 보물상자
     Level: 99
     Dex: 1199
     Size: Small
@@ -16234,7 +16234,7 @@ Body:
         StealProtected: true
   - Id: 1363
     AegisName: TREASURE_BOX40
-    Name: Treasure Chest
+    Name: 보물상자
     Level: 99
     Dex: 1199
     Size: Small
@@ -16264,7 +16264,7 @@ Body:
         StealProtected: true
   - Id: 1364
     AegisName: G_ASSULTER
-    Name: Assaulter
+    Name: 어절터
     Level: 98
     Hp: 7798
     Attack: 293
@@ -18695,7 +18695,7 @@ Body:
     Ai: 04
   - Id: 1420
     AegisName: G_ARCHER_SKELETON
-    Name: Archer Skeleton
+    Name: 아쳐 스켈레톤
     Level: 50
     Hp: 1646
     Attack: 95
@@ -18946,7 +18946,7 @@ Body:
     Ai: 04
   - Id: 1429
     AegisName: G_ARGIOPE
-    Name: Argiope
+    Name: 아르지오프
     Level: 75
     Hp: 3105
     Attack: 321
@@ -18975,7 +18975,7 @@ Body:
       Detector: true
   - Id: 1430
     AegisName: G_ARGOS
-    Name: Argos
+    Name: 아르고스
     Level: 47
     Hp: 1005
     Attack: 96
@@ -20237,7 +20237,7 @@ Body:
     Ai: 04
   - Id: 1476
     AegisName: G_ALARM
-    Name: Alarm
+    Name: 알람
     Level: 88
     Hp: 5562
     Attack: 319
@@ -25947,7 +25947,7 @@ Body:
         StealProtected: true
   - Id: 1640
     AegisName: G_SEYREN
-    Name: Lord Knight Seyren
+    Name: 로드나이트 세이렌
     Level: 160
     Hp: 2680000
     Attack: 6435
@@ -25984,7 +25984,7 @@ Body:
         StealProtected: true
   - Id: 1641
     AegisName: G_EREMES
-    Name: Assassin Cross Eremes
+    Name: 어쌔신크로스 에레메스
     Level: 160
     Hp: 1230000
     Attack: 6083
@@ -26021,7 +26021,7 @@ Body:
         StealProtected: true
   - Id: 1642
     AegisName: G_HARWORD
-    Name: Whitesmith Howard
+    Name: 화이트스미스 하워드
     JapaneseName: Whitesmith Harword
     Level: 160
     Hp: 3750000
@@ -26059,7 +26059,7 @@ Body:
         StealProtected: true
   - Id: 1643
     AegisName: G_MAGALETA
-    Name: High Priest Margaretha
+    Name: 하이프리스트 마가레타
     JapaneseName: High Priest Magaleta
     Level: 160
     Hp: 2800000
@@ -26097,7 +26097,7 @@ Body:
         StealProtected: true
   - Id: 1644
     AegisName: G_SHECIL
-    Name: Sniper Cecil
+    Name: 스나이퍼 셰실
     JapaneseName: Sniper Shecil
     Level: 160
     Hp: 4140000
@@ -26135,7 +26135,7 @@ Body:
         StealProtected: true
   - Id: 1645
     AegisName: G_KATRINN
-    Name: High Wizard Kathryne
+    Name: 하이위자드 카트린느
     JapaneseName: High Wizard Katrinn
     Level: 160
     Hp: 4500000
@@ -29881,7 +29881,7 @@ Body:
         Rate: 5000
   - Id: 1732
     AegisName: G_TREASURE_BOX
-    Name: Treasure Chest
+    Name: 보물상자
     Level: 98
     Hp: 500
     Dex: 1199
@@ -32449,7 +32449,7 @@ Body:
         StealProtected: true
   - Id: 1798
     AegisName: TREASURE_BOX_
-    Name: Treasure Chest
+    Name: 보물상자
     Level: 99
     Dex: 1199
     Size: Small
@@ -37364,7 +37364,7 @@ Body:
     Ai: 04
   - Id: 1938
     AegisName: TREASURE_BOX41
-    Name: Treasure Chest
+    Name: 보물상자
     Level: 99
     Dex: 1199
     Size: Small
@@ -37394,7 +37394,7 @@ Body:
         StealProtected: true
   - Id: 1939
     AegisName: TREASURE_BOX42
-    Name: Treasure Chest
+    Name: 보물상자
     Level: 99
     Dex: 1199
     Size: Small
@@ -37424,7 +37424,7 @@ Body:
         StealProtected: true
   - Id: 1940
     AegisName: TREASURE_BOX43
-    Name: Treasure Chest
+    Name: 보물상자
     Level: 99
     Dex: 1199
     Size: Small
@@ -37454,7 +37454,7 @@ Body:
         StealProtected: true
   - Id: 1941
     AegisName: TREASURE_BOX44
-    Name: Treasure Chest
+    Name: 보물상자
     Level: 99
     Dex: 1199
     Size: Small
@@ -37484,7 +37484,7 @@ Body:
         StealProtected: true
   - Id: 1942
     AegisName: TREASURE_BOX45
-    Name: Treasure Chest
+    Name: 보물상자
     Level: 99
     Dex: 1199
     Size: Small
@@ -37514,7 +37514,7 @@ Body:
         StealProtected: true
   - Id: 1943
     AegisName: TREASURE_BOX46
-    Name: Treasure Chest
+    Name: 보물상자
     Level: 99
     Dex: 1199
     Size: Small
@@ -37544,7 +37544,7 @@ Body:
         StealProtected: true
   - Id: 1944
     AegisName: TREASURE_BOX47
-    Name: Treasure Chest
+    Name: 보물상자
     Level: 99
     Dex: 1199
     Size: Small
@@ -37574,7 +37574,7 @@ Body:
         StealProtected: true
   - Id: 1945
     AegisName: TREASURE_BOX48
-    Name: Treasure Chest
+    Name: 보물상자
     Level: 99
     Dex: 1199
     Size: Small
@@ -37604,7 +37604,7 @@ Body:
         StealProtected: true
   - Id: 1946
     AegisName: TREASURE_BOX49
-    Name: Treasure Chest
+    Name: 보물상자
     Level: 99
     Dex: 1199
     Size: Small
@@ -37889,7 +37889,7 @@ Body:
         StealProtected: true
   - Id: 1955
     AegisName: TREASURE_BOX_I
-    Name: Treasure Chest
+    Name: 보물상자
     Level: 1
     Hp: 1
     Dex: 999
@@ -55757,7 +55757,7 @@ Body:
         Rate: 100
   - Id: 2452
     AegisName: TREASURE_BOX_TE
-    Name: Treasure Chest
+    Name: 보물상자
     Level: 99
     Dex: 1199
     Size: Small
@@ -55787,7 +55787,7 @@ Body:
         StealProtected: true
   - Id: 2453
     AegisName: TREASURE_BOX_TE_1
-    Name: Treasure Chest
+    Name: 보물상자
     Level: 99
     Dex: 1199
     Size: Small
@@ -55817,7 +55817,7 @@ Body:
         StealProtected: true
   - Id: 2454
     AegisName: TREASURE_BOX_TE_2
-    Name: Treasure Chest
+    Name: 보물상자
     Level: 99
     Dex: 1199
     Size: Small
@@ -55847,7 +55847,7 @@ Body:
         StealProtected: true
   - Id: 2455
     AegisName: TREASURE_BOX_TE_3
-    Name: Treasure Chest
+    Name: 보물상자
     Level: 99
     Dex: 1199
     Size: Small
@@ -55877,7 +55877,7 @@ Body:
         StealProtected: true
   - Id: 2456
     AegisName: TREASURE_BOX_TE_4
-    Name: Treasure Chest
+    Name: 보물상자
     Level: 99
     Dex: 1199
     Size: Small
@@ -55907,7 +55907,7 @@ Body:
         StealProtected: true
   - Id: 2457
     AegisName: TREASURE_BOX_TE_5
-    Name: Treasure Chest
+    Name: 보물상자
     Level: 99
     Dex: 1199
     Size: Small
@@ -55937,7 +55937,7 @@ Body:
         StealProtected: true
   - Id: 2458
     AegisName: TREASURE_BOX_TE_6
-    Name: Treasure Chest
+    Name: 보물상자
     Level: 99
     Dex: 1199
     Size: Small
@@ -55967,7 +55967,7 @@ Body:
         StealProtected: true
   - Id: 2459
     AegisName: TREASURE_BOX_TE_7
-    Name: Treasure Chest
+    Name: 보물상자
     Level: 99
     Dex: 1199
     Size: Small
@@ -55997,7 +55997,7 @@ Body:
         StealProtected: true
   - Id: 2460
     AegisName: TREASURE_BOX_TE_8
-    Name: Treasure Chest
+    Name: 보물상자
     Level: 99
     Dex: 1199
     Size: Small
@@ -56027,7 +56027,7 @@ Body:
         StealProtected: true
   - Id: 2461
     AegisName: TREASURE_BOX_TE_9
-    Name: Treasure Chest
+    Name: 보물상자
     Level: 99
     Dex: 1199
     Size: Small
@@ -56057,7 +56057,7 @@ Body:
         StealProtected: true
   - Id: 2462
     AegisName: TREASURE_BOX_TE_10
-    Name: Treasure Chest
+    Name: 보물상자
     Level: 99
     Dex: 1199
     Size: Small
@@ -101347,7 +101347,7 @@ Body:
 #    AegisName: MD_HIDDEN_GROUND02
   - Id: 20848
     AegisName: SUMMON_WOODENWARRIOR
-    Name: Wooden Warrior
+    Name: 우든 워리어
     Level: 200
     Hp: 20000
     Defense: 200
@@ -101372,7 +101372,7 @@ Body:
     Ai: 20
   - Id: 20849
     AegisName: SUMMON_WOODEN_FAIRY
-    Name: Wooden Fairy
+    Name: 우든 페어리
     Level: 200
     Hp: 20000
     Defense: 200
@@ -101397,7 +101397,7 @@ Body:
     Ai: 20
   - Id: 20850
     AegisName: SUMMON_CREEPER
-    Name: Creeper
+    Name: 크리퍼
     Level: 200
     Hp: 20000
     Defense: 200
@@ -101422,7 +101422,7 @@ Body:
     Ai: 20
   - Id: 20851
     AegisName: SUMMON_HELLTREE
-    Name: Hell Tree
+    Name: 헬 트리
     Level: 200
     Hp: 20000
     Defense: 200

@@ -58,7 +58,7 @@ Header:
 
 Body:
   - Class: Lif
-    Name: Lif
+    Name: 리프
     EvolutionClass: Lif_H
     Status:
       - Type: Hp
@@ -127,7 +127,7 @@ Body:
         RequiredIntimacy: 910
         RequireEvolution: true
   - Class: Amistr
-    Name: Amistr
+    Name: 아미스트르
     EvolutionClass: Amistr_H
     Food: Zargon
     Race: Brute
@@ -198,7 +198,7 @@ Body:
         RequiredIntimacy: 910
         RequireEvolution: true
   - Class: Filir
-    Name: Filir
+    Name: 필리르
     EvolutionClass: Filir_H
     Food: Garlet
     Race: Brute
@@ -269,7 +269,7 @@ Body:
         RequiredIntimacy: 910
         RequireEvolution: true
   - Class: Vanilmirth
-    Name: Vanilmirth
+    Name: 바닐미르스
     EvolutionClass: Vanilmirth_H
     Food: Scell
     Race: Formless
@@ -340,7 +340,7 @@ Body:
         RequiredIntimacy: 910
         RequireEvolution: true
   - Class: Lif2
-    Name: Lif
+    Name: 리프
     EvolutionClass: Lif_H2
     Status:
       - Type: Hp
@@ -409,7 +409,7 @@ Body:
         RequiredIntimacy: 910
         RequireEvolution: true
   - Class: Amistr2
-    Name: Amistr
+    Name: 아미스트르
     EvolutionClass: Amistr_H2
     Food: Zargon
     Race: Brute
@@ -480,7 +480,7 @@ Body:
         RequiredIntimacy: 910
         RequireEvolution: true
   - Class: Filir2
-    Name: Filir
+    Name: 필리르
     EvolutionClass: Filir_H2
     Food: Garlet
     Race: Brute
@@ -551,7 +551,7 @@ Body:
         RequiredIntimacy: 910
         RequireEvolution: true
   - Class: Vanilmirth2
-    Name: Vanilmirth
+    Name: 바닐미르스
     EvolutionClass: Vanilmirth_H2
     Food: Scell
     Race: Formless
@@ -622,7 +622,7 @@ Body:
         RequiredIntimacy: 910
         RequireEvolution: true
   - Class: Eira
-    Name: Eira
+    Name: 에이라
     Food: Small_Snow_Flower
     Race: Angel
     Element: Wind
@@ -686,7 +686,7 @@ Body:
         MaxLevel: 10
         RequiredLevel: 230
   - Class: Bayeri
-    Name: Bayeri
+    Name: 바이에리
     Food: Fresh_Plant
     Race: Brute
     Element: Holy
@@ -753,7 +753,7 @@ Body:
         MaxLevel: 10
         RequiredLevel: 230
   - Class: Sera
-    Name: Sera
+    Name: 세라
     Food: Apple_Pudding
     Race: Insect
     Element: Earth
@@ -814,7 +814,7 @@ Body:
         MaxLevel: 10
         RequiredLevel: 230
   - Class: Dieter
-    Name: Dieter
+    Name: 디이터
     Food: Big_Cell
     Race: Formless
     Element: Fire
@@ -878,7 +878,7 @@ Body:
         MaxLevel: 10
         RequiredLevel: 210
   - Class: Eleanor
-    Name: Eleanor
+    Name: 에레노아
     Food: Bun_
     Element: Poison
     Size: Medium
