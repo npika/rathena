@@ -1498,6 +1498,15 @@ Body:
     Aliases:
       - homevolve
       - 호문진화
+  - Command: homfriendly
+    Aliases:
+      - 호문친밀도
+  - Command: hommutate
+    Aliases:
+      - 호문진화S
+      - 호문진화s
+      - 호문S진화
+      - 호문s진화
   - Command: mutearea
     Aliases:
       - stfu

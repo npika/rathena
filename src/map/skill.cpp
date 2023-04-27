@@ -5968,10 +5968,25 @@ int skill_castend_damage_id (struct block_list* src, struct block_list *bl, uint
 					break;
 				case DK_SERVANT_W_PHANTOM:
 					// Jump to the target before attacking.
-					if (skill_check_unit_movepos(5, src, bl->x, bl->y, 0, 1))
-						skill_blown(src, src, 1, (map_calc_dir(bl, src->x, src->y) + 4) % 8, BLOWN_NONE);
-					clif_skill_nodamage(src, bl, skill_id, skill_lv, 1);// Trigger animation on servants.
+					//if (skill_check_unit_movepos(5, src, bl->x, bl->y, 0, 1))
+					//	skill_blown(src, src, 1, (map_calc_dir(bl, src->x, src->y) + 4) % 8, BLOWN_NONE);
+					//clif_skill_nodamage(src, bl, skill_id, skill_lv, 1);// Trigger animation on servants.
+					//break;
+				{
+					uint8 dir = map_calc_dir(bl, src->x, src->y);    // dir based on target as we move player based on target location
+
+					// Move the player 1 cell near the target, between the target and the player
+					if (skill_check_unit_movepos(5, src, bl->x + dirx[dir], bl->y + diry[dir], 0, 1)) {
+						clif_blown(src);
+						clif_skill_nodamage(src, bl, skill_id, skill_lv, 1);// Trigger animation on servants.
+					}
+					else {
+						if (sd)
+							clif_skill_fail(sd, skill_id, USESKILL_FAIL, 0);
+						return 0;
+					}
 					break;
+				}
 				case SHC_SAVAGE_IMPACT: {
 					if (sc && sc->getSCE(SC_CLOAKINGEXCEED)) {
 						skill_area_temp[0] = 2;
