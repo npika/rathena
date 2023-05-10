@@ -9446,6 +9446,8 @@
 	export_constant(HAT_EF_alice_tea);
 	export_constant(HAT_EF_C_Dark_Lord_Cloak);
 	export_constant(HAT_EF_c_sakura_fubuki);
+	export_constant(HAT_EF_C_Dark_Lord_Manteau);
+	export_constant(HAT_EF_decoration_of_music);
 
 	/* pet catch */
 	export_constant(PET_CATCH_UNIVERSAL);

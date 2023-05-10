@@ -2088,6 +2088,8 @@ enum e_hat_effects : int16{
 	HAT_EF_alice_tea,
 	HAT_EF_C_Dark_Lord_Cloak,
 	HAT_EF_c_sakura_fubuki,
+	HAT_EF_C_Dark_Lord_Manteau,
+	HAT_EF_decoration_of_music,
 	HAT_EF_MAX = 9999
 };
 
