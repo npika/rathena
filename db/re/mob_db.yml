@@ -98448,7 +98448,6 @@ Body:
     AttackMotion: 768
     DamageMotion: 480
     Ai: 04
-    Drops:
   - Id: 20639
     AegisName: EP17_2_BETA_GUARDS_NG
     Name: Broken Beta Guards
